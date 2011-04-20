@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ForthView.h
 //  RPGRefrence
 //
 //  Created by Carter Charbonneau on 4/18/11.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-
-@interface FirstViewController : UIViewController {
-
+@interface ForthView : UIViewController {
+	int result;
 }
 @end

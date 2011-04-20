@@ -18,6 +18,16 @@
 		BC4C15B8135D2E2D00681AE2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4C15B7135D2E2D00681AE2 /* SecondViewController.m */; };
 		BC4C15BB135D2E2D00681AE2 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4C15B9135D2E2D00681AE2 /* FirstView.xib */; };
 		BC4C15BE135D2E2D00681AE2 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4C15BC135D2E2D00681AE2 /* SecondView.xib */; };
+		BC5E76D7135D2ECF00FA6BDD /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E76D5135D2ECF00FA6BDD /* ThirdView.m */; };
+		BC5E76D8135D2ECF00FA6BDD /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76D6135D2ECF00FA6BDD /* ThirdView.xib */; };
+		BC5E76DF135D2F4E00FA6BDD /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DB135D2F4E00FA6BDD /* 33-cabinet.png */; };
+		BC5E76E0135D2F4E00FA6BDD /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DC135D2F4E00FA6BDD /* 44-shoebox.png */; };
+		BC5E76E1135D2F4E00FA6BDD /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DD135D2F4E00FA6BDD /* 111-user.png */; };
+		BC5E76E2135D2F4E00FA6BDD /* 158-wrench-2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DE135D2F4E00FA6BDD /* 158-wrench-2.png */; };
+		BC5E76E4135D2F9F00FA6BDD /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76E3135D2F9F00FA6BDD /* 179-notepad.png */; };
+		BC5E76E6135D2FC000FA6BDD /* 130-dice.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76E5135D2FC000FA6BDD /* 130-dice.png */; };
+		BC5E76EA135D319500FA6BDD /* ForthView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E76E8135D319500FA6BDD /* ForthView.m */; };
+		BC5E76EB135D319500FA6BDD /* ForthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76E9135D319500FA6BDD /* ForthView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +35,31 @@
 		BC4C159E135D2E2D00681AE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC4C15A0135D2E2D00681AE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC4C15A2135D2E2D00681AE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BC4C15A6135D2E2D00681AE2 /* RPGRefrence-Info.plist */ = {isa = PBXFileReference; path = "RPGRefrence-Info.plist"; sourceTree = "<group>"; };
+		BC4C15A6135D2E2D00681AE2 /* RPGRefrence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPGRefrence-Info.plist"; sourceTree = "<group>"; };
 		BC4C15A8135D2E2D00681AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BC4C15AA135D2E2D00681AE2 /* RPGRefrence-Prefix.pch */ = {isa = PBXFileReference; path = "RPGRefrence-Prefix.pch"; sourceTree = "<group>"; };
+		BC4C15AA135D2E2D00681AE2 /* RPGRefrence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPGRefrence-Prefix.pch"; sourceTree = "<group>"; };
 		BC4C15AB135D2E2D00681AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC4C15AD135D2E2D00681AE2 /* RPGRefrenceAppDelegate.h */ = {isa = PBXFileReference; path = RPGRefrenceAppDelegate.h; sourceTree = "<group>"; };
+		BC4C15AD135D2E2D00681AE2 /* RPGRefrenceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPGRefrenceAppDelegate.h; sourceTree = "<group>"; };
 		BC4C15AE135D2E2D00681AE2 /* RPGRefrenceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPGRefrenceAppDelegate.m; sourceTree = "<group>"; };
 		BC4C15B1135D2E2D00681AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		BC4C15B3135D2E2D00681AE2 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		BC4C15B3135D2E2D00681AE2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		BC4C15B4135D2E2D00681AE2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		BC4C15B6135D2E2D00681AE2 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		BC4C15B6135D2E2D00681AE2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		BC4C15B7135D2E2D00681AE2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		BC4C15BA135D2E2D00681AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		BC4C15BD135D2E2D00681AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		BC5E76D4135D2ECF00FA6BDD /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
+		BC5E76D5135D2ECF00FA6BDD /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
+		BC5E76D6135D2ECF00FA6BDD /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		BC5E76DB135D2F4E00FA6BDD /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-cabinet.png"; sourceTree = "<group>"; };
+		BC5E76DC135D2F4E00FA6BDD /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
+		BC5E76DD135D2F4E00FA6BDD /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		BC5E76DE135D2F4E00FA6BDD /* 158-wrench-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "158-wrench-2.png"; sourceTree = "<group>"; };
+		BC5E76E3135D2F9F00FA6BDD /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "179-notepad.png"; sourceTree = "<group>"; };
+		BC5E76E5135D2FC000FA6BDD /* 130-dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "130-dice.png"; sourceTree = "<group>"; };
+		BC5E76E7135D319500FA6BDD /* ForthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthView.h; sourceTree = "<group>"; };
+		BC5E76E8135D319500FA6BDD /* ForthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthView.m; sourceTree = "<group>"; };
+		BC5E76E9135D319500FA6BDD /* ForthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForthView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +106,14 @@
 		BC4C15A4135D2E2D00681AE2 /* RPGRefrence */ = {
 			isa = PBXGroup;
 			children = (
-				BC4C15AD135D2E2D00681AE2 /* RPGRefrenceAppDelegate.h */,
+				BC5E76DA135D2F0800FA6BDD /* Images */,
 				BC4C15AE135D2E2D00681AE2 /* RPGRefrenceAppDelegate.m */,
+				BC4C15AD135D2E2D00681AE2 /* RPGRefrenceAppDelegate.h */,
 				BC4C15B0135D2E2D00681AE2 /* MainWindow.xib */,
-				BC4C15B3135D2E2D00681AE2 /* FirstViewController.h */,
-				BC4C15B4135D2E2D00681AE2 /* FirstViewController.m */,
-				BC4C15B6135D2E2D00681AE2 /* SecondViewController.h */,
-				BC4C15B7135D2E2D00681AE2 /* SecondViewController.m */,
-				BC4C15B9135D2E2D00681AE2 /* FirstView.xib */,
-				BC4C15BC135D2E2D00681AE2 /* SecondView.xib */,
+				BC5E76D1135D2E9A00FA6BDD /* FirstView(Characters) */,
+				BC5E76D3135D2EAD00FA6BDD /* SecondView */,
+				BC5E76D9135D2ED300FA6BDD /* ThirdView */,
+				BC5E76EC135D319C00FA6BDD /* ForthView */,
 				BC4C15A5135D2E2D00681AE2 /* Supporting Files */,
 			);
 			path = RPGRefrence;
@@ -107,6 +128,59 @@
 				BC4C15AB135D2E2D00681AE2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC5E76D1135D2E9A00FA6BDD /* FirstView(Characters) */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C15B3135D2E2D00681AE2 /* FirstViewController.h */,
+				BC4C15B4135D2E2D00681AE2 /* FirstViewController.m */,
+				BC4C15B9135D2E2D00681AE2 /* FirstView.xib */,
+			);
+			name = "FirstView(Characters)";
+			sourceTree = "<group>";
+		};
+		BC5E76D3135D2EAD00FA6BDD /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C15B6135D2E2D00681AE2 /* SecondViewController.h */,
+				BC4C15B7135D2E2D00681AE2 /* SecondViewController.m */,
+				BC4C15BC135D2E2D00681AE2 /* SecondView.xib */,
+			);
+			name = SecondView;
+			sourceTree = "<group>";
+		};
+		BC5E76D9135D2ED300FA6BDD /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E76D4135D2ECF00FA6BDD /* ThirdView.h */,
+				BC5E76D5135D2ECF00FA6BDD /* ThirdView.m */,
+				BC5E76D6135D2ECF00FA6BDD /* ThirdView.xib */,
+			);
+			name = ThirdView;
+			sourceTree = "<group>";
+		};
+		BC5E76DA135D2F0800FA6BDD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E76E5135D2FC000FA6BDD /* 130-dice.png */,
+				BC5E76E3135D2F9F00FA6BDD /* 179-notepad.png */,
+				BC5E76DB135D2F4E00FA6BDD /* 33-cabinet.png */,
+				BC5E76DC135D2F4E00FA6BDD /* 44-shoebox.png */,
+				BC5E76DD135D2F4E00FA6BDD /* 111-user.png */,
+				BC5E76DE135D2F4E00FA6BDD /* 158-wrench-2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BC5E76EC135D319C00FA6BDD /* ForthView */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E76E7135D319500FA6BDD /* ForthView.h */,
+				BC5E76E8135D319500FA6BDD /* ForthView.m */,
+				BC5E76E9135D319500FA6BDD /* ForthView.xib */,
+			);
+			name = ForthView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +237,14 @@
 				BC4C15B2135D2E2D00681AE2 /* MainWindow.xib in Resources */,
 				BC4C15BB135D2E2D00681AE2 /* FirstView.xib in Resources */,
 				BC4C15BE135D2E2D00681AE2 /* SecondView.xib in Resources */,
+				BC5E76D8135D2ECF00FA6BDD /* ThirdView.xib in Resources */,
+				BC5E76DF135D2F4E00FA6BDD /* 33-cabinet.png in Resources */,
+				BC5E76E0135D2F4E00FA6BDD /* 44-shoebox.png in Resources */,
+				BC5E76E1135D2F4E00FA6BDD /* 111-user.png in Resources */,
+				BC5E76E2135D2F4E00FA6BDD /* 158-wrench-2.png in Resources */,
+				BC5E76E4135D2F9F00FA6BDD /* 179-notepad.png in Resources */,
+				BC5E76E6135D2FC000FA6BDD /* 130-dice.png in Resources */,
+				BC5E76EB135D319500FA6BDD /* ForthView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +259,8 @@
 				BC4C15AF135D2E2D00681AE2 /* RPGRefrenceAppDelegate.m in Sources */,
 				BC4C15B5135D2E2D00681AE2 /* FirstViewController.m in Sources */,
 				BC4C15B8135D2E2D00681AE2 /* SecondViewController.m in Sources */,
+				BC5E76D7135D2ECF00FA6BDD /* ThirdView.m in Sources */,
+				BC5E76EA135D319500FA6BDD /* ForthView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +381,7 @@
 				BC4C15C3135D2E2D00681AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
