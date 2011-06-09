@@ -13,7 +13,7 @@
 @synthesize resdis;
 - (IBAction)roll{
 	NSLog(@"rolling...");
-	return 0;
+	return;
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

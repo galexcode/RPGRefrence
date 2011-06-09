@@ -48,70 +48,89 @@
 		    {
 				[gentart count: 1];
 			}
+			break;
 		default:
-			
-	}
-}
--(void)gentgems:(int)count{
-	for ( ; count > 0; count--) {
-		switch ((arc4random(100) + 1) {
-			else if (temp <= 1-25:
-				
-			else if (temp <= 26-50:
-				
-			else if (temp <= 51-70:
-				
-			else if (temp <= 71-90
-				
-			else if (temp <= 91-99:
-				
-			else if (temp <= 100:
-				
-			default:
-				
+			break;
 		}
 	}
 }
+-(void)gentgems:(int)count{
+	gemgold = 0;
+	for ( ; count > 0; count--) {
+		temp = ((arc4random() % 100) + 1);
+			if (temp <= 1 & temp >= 25)
+			{
+				gemgold = gemgold + (((arc4random() % 4) + 1) + ((arc4random() % 4) + 1) + ((arc4random() % 4) + 1) + ((arc4random() % 4) + 1));
+			}
+			else if (temp <= 26 & temp >= 50)
+			{
+				gemgold = gemgold + ((((arc4random() % 4) + 1) + ((arc4random() % 4) + 1)) * 10);
+			}
+			else if (temp <= 51 & temp >= 70)
+			{
+				gemgold = gemgold + ((((arc4random() % 4) + 1) + ((arc4random() % 4) + 1) + ((arc4random() % 4) + 1) + ((arc4random() % 4) + 1)) * 10);
+			}
+			else if (temp <= 71 & temp >= 90)
+			{
+				gemgold = gemgold + ((((arc4random() % 4) + 1) + ((arc4random() % 4) + 1)) * 100);
+			}
+			else if (temp <= 91 & temp >= 99)
+			else if (temp <= 100)
+		}
+	}
+					 
 -(void)gentart:(int)count{
 	artgold = 0;
 	for ( ; count > 0; count--) {
-		switch (arc4random(100)) {
-			else if (temp <= 0-9:
+		temp = (arc4random() % 100); {
+			if (temp <= 0 & temp >= 9)
+			{
 				artgold = artgold + (((arc4random() % 10) + 1) * 10);
-				
-			else if (temp <= 10-24:
+			}
+			else if (temp <= 10 & temp >= 24)
+			{
 				artgold = artgold + ((((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1)) * 10);
-				
-			else if (temp <= 25-39:
+			}
+			else if (temp <= 25 & temp >= 39)
+			{
 				artgold = artgold + (((arc4random() % 6) + 1) * 100);
-				
-			else if (temp <= 40-49:
+			}
+			else if (temp <= 40 & temp >= 49)
+			{
 				artgold = artgold + (((arc4random() % 6) + 1) * 100);
-				
-			else if (temp <= 50-59:
+			}	
+			else if (temp <= 50 & temp >= 59)
+			{
 				artgold = artgold + ((((arc4random() % 6) + 1) + ((arc4random() % 6) + 1)) * 100);
-				
-			else if (temp <= 60-69:
+			}	
+			else if (temp <= 60 & temp >= 69)
+			{
 				artgold = artgold + ((((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1)) * 100);
-				
-			else if (temp <= 70-79:
+			}	
+			else if (temp <= 70 & temp >= 79)
+			{
 				artgold = artgold + ((((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1)) * 100);
-				
-			else if (temp <= 80-84:
+			}
+			else if (temp <= 80 & temp >= 84)
+			{
 				artgold = artgold + ((((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1) + ((arc4random() % 6) + 1)) * 100);
-			else if (temp <= 85-89:
-				artgold = artgold + (((arc4random(4) + 1) * 1000);
-				
-			else if (temp <= 90-94:
+			}
+			else if (temp <= 85 & temp >= 89)
+			{
+				artgold = artgold + (((arc4random() % 4)+ 1) * 1000);
+			}	
+			else if (temp <= 90 & temp >= 94)
+			{
 				artgold = artgold + (((arc4random() % 6) + 1) * 1000);
-				
-			else if (temp <= 95-98:
-				artgold = artgold + ((((arc4random(4) + 1) + ((arc4random(4) + 1)) * 1000);
-				
-			else if (temp <= 99:
+			}	
+			else if (temp <= 95 & temp >= 98)
+			{
+				artgold = artgold + ((((arc4random() % 4) + 1) + ((arc4random() % 4) + 1)) * 1000);
+			}	
+			else if (temp <= 99)
+			{
 				artgold = artgold + ((((arc4random() % 6) + 1) + ((arc4random() % 6) + 1)) * 1000);
-				
-			default:
+			}	
 				
 		}
 	}
