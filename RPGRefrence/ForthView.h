@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 @interface ForthView : UIViewController {
 	int result;
+	UIButton *resdis;
 }
+- (IBAction) roll;
+@property(nonatomic, copy) IBOutlet UIButton *resdis;
 @end
