@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BC254E3D139188C9003C0382 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = BC254E3C139188C9003C0382 /* 103-map.png */; };
-		BC254E4213918D11003C0382 /* SixthView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC254E4013918D11003C0382 /* SixthView.m */; };
-		BC254E4313918D11003C0382 /* SixthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC254E4113918D11003C0382 /* SixthView.xib */; };
 		BC3249D7135E77CB004FF9C3 /* FifthView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3249D5135E77CB004FF9C3 /* FifthView.m */; };
 		BC3249D8135E77CB004FF9C3 /* FifthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3249D6135E77CB004FF9C3 /* FifthView.xib */; };
 		BC4A630D1364F762001792D2 /* ForthView2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4A630B1364F762001792D2 /* ForthView2.m */; };
@@ -25,7 +23,6 @@
 		BC4C15B8135D2E2D00681AE2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4C15B7135D2E2D00681AE2 /* SecondViewController.m */; };
 		BC4C15BE135D2E2D00681AE2 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4C15BC135D2E2D00681AE2 /* SecondView.xib */; };
 		BC5E76D7135D2ECF00FA6BDD /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E76D5135D2ECF00FA6BDD /* ThirdView.m */; };
-		BC5E76D8135D2ECF00FA6BDD /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76D6135D2ECF00FA6BDD /* ThirdView.xib */; };
 		BC5E76DF135D2F4E00FA6BDD /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DB135D2F4E00FA6BDD /* 33-cabinet.png */; };
 		BC5E76E0135D2F4E00FA6BDD /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DC135D2F4E00FA6BDD /* 44-shoebox.png */; };
 		BC5E76E1135D2F4E00FA6BDD /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76DD135D2F4E00FA6BDD /* 111-user.png */; };
@@ -34,14 +31,14 @@
 		BC5E76E6135D2FC000FA6BDD /* 130-dice.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76E5135D2FC000FA6BDD /* 130-dice.png */; };
 		BC5E76EA135D319500FA6BDD /* ForthView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E76E8135D319500FA6BDD /* ForthView.m */; };
 		BC5E76EB135D319500FA6BDD /* ForthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5E76E9135D319500FA6BDD /* ForthView.xib */; };
-		BCD132ED1399924C00D7B6F4 /* treasure.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD132EC1399924C00D7B6F4 /* treasure.plist */; };
+		BC85E80F13A17C9600C74D2A /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC85E80E13A17C9600C74D2A /* ThirdView.xib */; };
+		BC85E81713A2BAB900C74D2A /* SixthView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC85E81513A2BAB800C74D2A /* SixthView.m */; };
+		BCD132ED1399924C00D7B6F4 /* ddTreasure.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD132EC1399924C00D7B6F4 /* ddTreasure.plist */; };
+		BCE093AD13C6070400EBCCC2 /* SixthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE093AC13C6070400EBCCC2 /* SixthView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC254E3C139188C9003C0382 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
-		BC254E3F13918D11003C0382 /* SixthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthView.h; sourceTree = "<group>"; };
-		BC254E4013918D11003C0382 /* SixthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthView.m; sourceTree = "<group>"; };
-		BC254E4113918D11003C0382 /* SixthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthView.xib; sourceTree = "<group>"; };
 		BC3249D4135E77CB004FF9C3 /* FifthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthView.h; sourceTree = "<group>"; };
 		BC3249D5135E77CB004FF9C3 /* FifthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthView.m; sourceTree = "<group>"; };
 		BC3249D6135E77CB004FF9C3 /* FifthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthView.xib; sourceTree = "<group>"; };
@@ -66,7 +63,6 @@
 		BC4C15BD135D2E2D00681AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		BC5E76D4135D2ECF00FA6BDD /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
 		BC5E76D5135D2ECF00FA6BDD /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
-		BC5E76D6135D2ECF00FA6BDD /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 		BC5E76DB135D2F4E00FA6BDD /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-cabinet.png"; sourceTree = "<group>"; };
 		BC5E76DC135D2F4E00FA6BDD /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
 		BC5E76DD135D2F4E00FA6BDD /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
@@ -76,7 +72,11 @@
 		BC5E76E7135D319500FA6BDD /* ForthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthView.h; sourceTree = "<group>"; };
 		BC5E76E8135D319500FA6BDD /* ForthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthView.m; sourceTree = "<group>"; };
 		BC5E76E9135D319500FA6BDD /* ForthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForthView.xib; sourceTree = "<group>"; };
-		BCD132EC1399924C00D7B6F4 /* treasure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = treasure.plist; sourceTree = "<group>"; };
+		BC85E80E13A17C9600C74D2A /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		BC85E81413A2BAB800C74D2A /* SixthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthView.h; sourceTree = "<group>"; };
+		BC85E81513A2BAB800C74D2A /* SixthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthView.m; sourceTree = "<group>"; };
+		BCD132EC1399924C00D7B6F4 /* ddTreasure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ddTreasure.plist; sourceTree = "<group>"; };
+		BCE093AC13C6070400EBCCC2 /* SixthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,10 @@
 		BC254E4413918D18003C0382 /* SixthView(TreasureGenerator) */ = {
 			isa = PBXGroup;
 			children = (
-				BC254E3F13918D11003C0382 /* SixthView.h */,
-				BC254E4013918D11003C0382 /* SixthView.m */,
-				BC254E4113918D11003C0382 /* SixthView.xib */,
-				BCD132EC1399924C00D7B6F4 /* treasure.plist */,
+				BC85E81413A2BAB800C74D2A /* SixthView.h */,
+				BC85E81513A2BAB800C74D2A /* SixthView.m */,
+				BCE093AC13C6070400EBCCC2 /* SixthView.xib */,
+				BCD132EC1399924C00D7B6F4 /* ddTreasure.plist */,
 			);
 			name = "SixthView(TreasureGenerator)";
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 		BC5E76D9135D2ED300FA6BDD /* ThirdView */ = {
 			isa = PBXGroup;
 			children = (
+				BC85E80E13A17C9600C74D2A /* ThirdView.xib */,
 				BC5E76D4135D2ECF00FA6BDD /* ThirdView.h */,
 				BC5E76D5135D2ECF00FA6BDD /* ThirdView.m */,
-				BC5E76D6135D2ECF00FA6BDD /* ThirdView.xib */,
 			);
 			name = ThirdView;
 			sourceTree = "<group>";
@@ -280,7 +280,6 @@
 				BC4C15A9135D2E2D00681AE2 /* InfoPlist.strings in Resources */,
 				BC4C15B2135D2E2D00681AE2 /* MainWindow.xib in Resources */,
 				BC4C15BE135D2E2D00681AE2 /* SecondView.xib in Resources */,
-				BC5E76D8135D2ECF00FA6BDD /* ThirdView.xib in Resources */,
 				BC5E76DF135D2F4E00FA6BDD /* 33-cabinet.png in Resources */,
 				BC5E76E0135D2F4E00FA6BDD /* 44-shoebox.png in Resources */,
 				BC5E76E1135D2F4E00FA6BDD /* 111-user.png in Resources */,
@@ -291,8 +290,9 @@
 				BC3249D8135E77CB004FF9C3 /* FifthView.xib in Resources */,
 				BC4A630E1364F762001792D2 /* ForthView2.xib in Resources */,
 				BC254E3D139188C9003C0382 /* 103-map.png in Resources */,
-				BC254E4313918D11003C0382 /* SixthView.xib in Resources */,
-				BCD132ED1399924C00D7B6F4 /* treasure.plist in Resources */,
+				BCD132ED1399924C00D7B6F4 /* ddTreasure.plist in Resources */,
+				BC85E80F13A17C9600C74D2A /* ThirdView.xib in Resources */,
+				BCE093AD13C6070400EBCCC2 /* SixthView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +311,7 @@
 				BC5E76EA135D319500FA6BDD /* ForthView.m in Sources */,
 				BC3249D7135E77CB004FF9C3 /* FifthView.m in Sources */,
 				BC4A630D1364F762001792D2 /* ForthView2.m in Sources */,
-				BC254E4213918D11003C0382 /* SixthView.m in Sources */,
+				BC85E81713A2BAB900C74D2A /* SixthView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +417,7 @@
 				BC4C15C0135D2E2D00681AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		BC4C15C1135D2E2D00681AE2 /* Build configuration list for PBXNativeTarget "RPGRefrence" */ = {
 			isa = XCConfigurationList;
@@ -426,7 +426,7 @@
 				BC4C15C3135D2E2D00681AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
