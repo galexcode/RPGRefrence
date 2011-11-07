@@ -1,20 +1,15 @@
 //
-//  ForthView2.m
+//  Characters.m
 //  RPGRefrence
 //
-//  Created by Carter Charbonneau on 4/24/11.
+//  Created by Zhacary Charbonneau on 11/6/11.
 //  Copyright 2011 none. All rights reserved.
 //
 
-#import "ForthView2.h"
+#import "Characters.h"
 
+@implementation Characters
 
-@implementation ForthView2
-@synthesize resdis;
-- (IBAction)roll{
-	NSLog(@"rolling...");
-	exit;
-}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,11 +17,6 @@
         // Custom initialization
     }
     return self;
-}
-
-- (void)dealloc
-{
-    [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,6 +33,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    HP.text = 10;
 }
 
 - (void)viewDidUnload
