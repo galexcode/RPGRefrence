@@ -153,13 +153,13 @@
 			<key>examples</key>
 			<string>Carved harp of exotic wood with ivory inlay and zircon gems; solid gold idol (10 lb.)</string>
 			<key>endingRoll</key>
-			<string>60</string>
+			<integer>60</integer>
 			<key>dice</key>
-			<string>3</string>
+			<integer>3</integer>
 			<key>sides</key>
-			<string>6</string>
+			<integer>6</integer>
 			<key>times</key>
-			<string>100</string>
+			<integer>100</integer>
 		</dict>
 		<dict>
 			<key>gold</key>
@@ -167,49 +167,97 @@
 			<key>examples</key>
 			<string>Gold dragon comb with red garnet eye; gold and topaz bottle stopper cork; ceremonial electrum dagger with a star ruby in the pommel</string>
 			<key>endingRoll</key>
-			<string>70</string>
+			<integer>70</integer>
 			<key>dice</key>
-			<string>3</string>
+			<integer>3</integer>
 			<key>sides</key>
-			<string>6</string>
+			<integer>6</integer>
 			<key>times</key>
-			<string>100</string>
+			<integer>100</integer>
 		</dict>
 		<dict>
 			<key>gold</key>
 			<string>1,400 gp</string>
 			<key>examples</key>
 			<string>Eyepatch with mock eye of sapphire and moonstone; fire opal pendant on a fine gold chain; old masterpiece painting</string>
+			<key>endingRoll</key>
+			<integer>80</integer>
+			<key>dice</key>
+			<integer>4</integer>
+			<key>sides</key>
+			<integer>6</integer>
+			<key>times</key>
+			<integer>100</integer>
 		</dict>
 		<dict>
-			<key>value</key>
+			<key>gold</key>
 			<string>1,750 gp</string>
 			<key>examples</key>
 			<string>Embroidered silk and velvet mantle with numerous moonstones; sapphire pendant on gold chain</string>
+			<key>endingRoll</key>
+			<integer>85</integer>
+			<key>dice</key>
+			<integer>5</integer>
+			<key>sides</key>
+			<integer>6</integer>
+			<key>times</key>
+			<integer>100</integer>
 		</dict>
 		<dict>
-			<key>value</key>
+			<key>gold</key>
 			<string>2,500 gp</string>
 			<key>examples</key>
 			<string>Embroidered and bejeweled glove; jeweled anklet; gold music box</string>
+			<key>endingRoll</key>
+			<integer>90</integer>
+			<key>dice</key>
+			<integer>1</integer>
+			<key>sides</key>
+			<integer>4</integer>
+			<key>times</key>
+			<integer>1000</integer>
 		</dict>
 		<dict>
-			<key>value</key>
+			<key>gold</key>
 			<string>3,500 gp</string>
 			<key>examples</key>
 			<string>Golden circlet with four aquamarines; a string of small pink pearls (necklace)</string>
+			<key>endingRoll</key>
+			<integer>95</integer>
+			<key>dice</key>
+			<integer>1</integer>
+			<key>sides</key>
+			<integer>6</integer>
+			<key>times</key>
+			<integer>1000</integer>
 		</dict>
 		<dict>
-			<key>value</key>
+			<key>gold</key>
 			<string>5,000 gp</string>
 			<key>examples</key>
 			<string>Jeweled gold crown; jeweled electrum ring</string>
+			<key>endingRoll</key>
+			<integer>99</integer>
+			<key>dice</key>
+			<integer>2</integer>
+			<key>sides</key>
+			<integer>4</integer>
+			<key>times</key>
+			<integer>1000</integer>
 		</dict>
 		<dict>
-			<key>value</key>
+			<key>gold</key>
 			<string>7,000 gp </string>
 			<key>examples</key>
 			<string>Gold and ruby ring; gold cup set with emeralds</string>
+			<key>endingRoll</key>
+			<integer>100</integer>
+			<key>dice</key>
+			<integer>2</integer>
+			<key>sides</key>
+			<integer>6</integer>
+			<key>times</key>
+			<integer>1000</integer>
 		</dict>
 	</array>
 </dict>
